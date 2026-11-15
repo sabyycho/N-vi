@@ -86,6 +86,8 @@ footer{border:2px solid var(--ink);border-bottom:0;background:var(--lilac);borde
 .dh{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.dh h2{font-size:2.2rem}
 .x{width:40px;height:40px;border-radius:50%;border:2px solid var(--ink);background:#fff;font-weight:700}
 .items{flex:1;overflow:auto;display:flex;flex-direction:column;gap:12px;padding:4px 4px 10px}
+/* celular: a gaveta inteira rola, senão o formulário e o botão do WhatsApp ficam abaixo da tela */
+.drawer{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}.items{flex:0 0 auto;overflow:visible}
 .qp{display:flex;gap:10px;align-items:center;padding:8px;background:#fff;border:2px solid var(--ink);border-radius:14px}.qp .th{width:56px;height:56px}.qp .nm{flex:1;font-weight:700;line-height:1.2}.qp small{display:block;color:var(--muted);font-weight:500}
 .qty{display:flex;align-items:center;gap:6px}.qty button{width:30px;height:30px;border-radius:50%;border:2px solid var(--ink);background:var(--butter);font-weight:700;line-height:1}.qty span{min-width:18px;text-align:center;font-weight:700}
 .empty{text-align:center;padding:24px 10px}.empty h3{font-size:1.6rem;margin-bottom:8px}
